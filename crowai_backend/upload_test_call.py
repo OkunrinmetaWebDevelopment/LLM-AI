@@ -1,8 +1,8 @@
 import requests
 import json
 
-# payload = {"files":["/Users/psemp/Documents/GitHub/crowAIchatbots/data/Css_Notes__1689837440.pdf"]}
-url = "https://apps.beam.cloud/huczv"
+# # payload = {"files":["/Users/psemp/Documents/GitHub/crowAIchatbots/data/Css_Notes__1689837440.pdf"]}
+url = "https://9w6lw.apps.beam.cloud"
 payload = {"files":["/Users/psemp/Documents/GitHub/crowAIchatbots/data/Css_Notes__1689837440.pdf"]}
 headers = {
   "Accept": "*/*",
@@ -16,4 +16,6 @@ response = requests.request("POST", url,
   headers=headers,
   data=json.dumps(payload)
 )
+
+
 
